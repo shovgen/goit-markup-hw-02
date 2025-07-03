@@ -1,0 +1,199 @@
+*{
+    font-family: "Raleway-bold", Helvetica;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,li {
+    list-style-type: none;
+}
+
+/* ----- navigation -----*/
+.logo{
+ color: blue;
+font-family: "Raleway-bold", Helvetica ;
+font-weight: 700 ;
+letter-spacing: 0.54px;
+font-size: 18px;
+text-transform: uppercase;
+}
+.logostudio {
+    color: black;
+}
+
+.header-navigation-list {
+     font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+.header-navigation-list-itme {}
+
+
+/*addres*/
+.address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+.address-list {}
+
+.address-list-itme {}
+
+.address-list-itme-text {}
+
+
+/* ----- hero banner -----*/
+.hero-banner{
+    background-image: url(../images/Dark-bg\ \(1\).jpg);
+    height: 600px;
+    width: 1440px;
+    background-size: contain;
+   
+}
+
+.hero-banner-title {
+    color: #fff;
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+       
+}
+
+.hero-banner-botton {
+   
+ font-weight: 500;
+        font-size: 16px;
+      
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+
+      
+}
+
+
+
+/* ----- solutions-----*/
+.solutions {}
+
+.solutions-list {}
+
+.solutions-list-item {}
+
+.solutions-title {font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+.solutions-list-item-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
+
+/* ----- our-team-----*/
+.team {}
+
+.team-heading {
+    color: 2E2F42;
+    font-weight: 700;
+        font-size: 36px;
+       
+        
+        text-align: center;
+        
+}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-images {width: 264px;
+    height: 260px;
+}
+
+.team-list-item-title {font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;}
+
+.team-list-item-text {font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;}
+
+
+
+/* ----- portfolio-----*/
+.portfolio {}
+
+.portfolio-heading {
+    font-weight: 700;
+    font-size: 36px;
+      
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.portfolio-list {}
+
+.portfolio-list-itme {}
+
+.portfolio-images {
+    width: 360px;
+    height: 300px;
+}
+
+.portfolio-list-itme-titl {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-list-itme-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
+
+/* ----- footer-----*/
+.footer {
+    background-image: url(../images/Dark-bg\ \(1\).jpg);
+    width: 1440px;
+        height: 312px;
+    background-size: contain;
+    
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+
+
+
