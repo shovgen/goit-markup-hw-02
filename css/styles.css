@@ -28,6 +28,7 @@ font-weight: 700;
 letter-spacing: 0.03em;
 font-size: 18px;
 text-transform: uppercase;
+line-height: 1.17;
 }
 .logo-studio {
     color: black;
@@ -71,34 +72,43 @@ text-transform: uppercase;
      height: 312px;
    
     background-size: contain;
-   
+    background-color: #2e2f42;
 }
 
 .hero-banner-title {
     color: #fff;
     font-weight: 700;
-        font-size: 56px;
-        line-height: 107%;
-        letter-spacing: 0.02em;
-       
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    
+    text-align: center
 }
 
 .hero-banner-botton {
    
  font-weight: 500;
-        font-size: 16px;
+    font-size: 16px;
       
-        letter-spacing: 0.04em;
-        color: #fff;
-        cursor: pointer;
-
-      
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
 
+.hero-banner-botton:hover {
+ background-color: #404bbf ;
+}
 
+.hero-banner-botton:focus {
+    background-color: #404BBF ;
+}
 
 /* ----- solutions-----*/
-.solutions {}
+.solutions {
+   
+}
 
 .solutions-list {}
 
@@ -122,21 +132,27 @@ text-transform: uppercase;
 
 
 /* ----- our-team-----*/
-.team {}
+.team { 
+
+}
 
 .team-heading {
-    color: 2E2F42;
+    color: 2e2f42;
     font-weight: 700;
-        font-size: 36px;
-       
-        
-        text-align: center;
-        
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+
 }
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-list-item-title {font-weight: 500;
     font-size: 20px;
@@ -160,10 +176,11 @@ text-transform: uppercase;
 .portfolio-heading {
     font-weight: 700;
     font-size: 36px;
-      
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -197,13 +214,14 @@ text-transform: uppercase;
     width: 1440px;
     height: 312px;
     background-size: contain;
+    background-color: #2e2f42;
     
 }
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    color: #fff;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 
