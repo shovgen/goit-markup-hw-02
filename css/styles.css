@@ -2,25 +2,41 @@
     font-family: "Raleway-bold", Helvetica;
     list-style-type: none;
 }
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
 a{
     text-decoration: none;
     color: black;
 }
 ul,li {
     list-style-type: none;
+
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
 }
 
 /* ----- navigation -----*/
 .logo{
  color: blue;
-font-family: "Raleway-bold", Helvetica ;
-font-weight: 700 ;
-letter-spacing: 0.54px;
+font-family: "Raleway",sans-serif ;
+font-weight: 700;
+letter-spacing: 0.03em;
 font-size: 18px;
 text-transform: uppercase;
 }
-.logostudio {
+.logo-studio {
     color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    text-transform: uppercase;
+
 }
 
 .header-navigation-list {
@@ -51,8 +67,9 @@ text-transform: uppercase;
 /* ----- hero banner -----*/
 .hero-banner{
     background-image: url(../images/Dark-bg\ \(1\).jpg);
-    height: 600px;
     width: 1440px;
+     height: 312px;
+   
     background-size: contain;
    
 }
@@ -87,7 +104,8 @@ text-transform: uppercase;
 
 .solutions-list-item {}
 
-.solutions-title {font-weight: 500;
+.solutions-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
@@ -119,10 +137,6 @@ text-transform: uppercase;
 .team-list {}
 
 .team-list-item {}
-
-.team-images {width: 264px;
-    height: 260px;
-}
 
 .team-list-item-title {font-weight: 500;
     font-size: 20px;
@@ -156,10 +170,8 @@ text-transform: uppercase;
 
 .portfolio-list-itme {}
 
-.portfolio-images {
-    width: 360px;
-    height: 300px;
-}
+
+   
 
 .portfolio-list-itme-titl {
     font-weight: 500;
@@ -183,7 +195,7 @@ text-transform: uppercase;
 .footer {
     background-image: url(../images/Dark-bg\ \(1\).jpg);
     width: 1440px;
-        height: 312px;
+    height: 312px;
     background-size: contain;
     
 }
