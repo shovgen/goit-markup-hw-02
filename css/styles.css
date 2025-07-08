@@ -54,6 +54,9 @@ line-height: 1.17;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.header-navigation-list-itme-nav{
+    color: #434455;
+}
 .header-navigation-list-itme-nav:hover,
 .header-navigation-list-itme-nav:focus{
     color: #404bbf;
@@ -261,7 +264,7 @@ line-height: 1.17;
 }
 
 .footer-logo-studio{
-    color: #f2f2fd;
+    color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     letter-spacing: 0.03em;
