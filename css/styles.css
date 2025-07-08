@@ -76,15 +76,15 @@ line-height: 1.17;
 /* ----- hero banner -----*/
 .hero-banner{
     background-image: url(../images/Dark-bg\ \(1\).jpg);
-    width: 1440px;
-    height: 312px;
-   
+    
+    font-weight: 1440px;
+    line-height: 312px;
     background-size: contain;
     background-color: #2e2f42;
 }
 
 .hero-banner-title {
-    color: #fff;
+    color: #ffffff;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -131,9 +131,10 @@ line-height: 1.17;
 .solutions-list-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+    color: #2E2F42;
+}
 
 .solutions-list-item-text {
     font-weight: 400;
@@ -226,8 +227,8 @@ line-height: 1.17;
 /* ----- footer-----*/
 .footer {
     background-image: url(../images/Dark-bg\ \(1\).jpg);
-    width: 1440px;
-    height: 312px;
+    font-weight: 1440px;
+    line-height: 312px;
     background-size: contain;
     background-color: #2e2f42;
     
