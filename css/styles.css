@@ -22,7 +22,7 @@ ul,li {
 
 /* ----- navigation -----*/
 .logo{
- color: blue;
+ color: #4d5ae5;
 font-family: "Raleway",sans-serif ;
 font-weight: 700;
 letter-spacing: 0.03em;
@@ -31,7 +31,7 @@ text-transform: uppercase;
 line-height: 1.17;
 }
 .logo-studio {
-    color: black;
+    color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -56,20 +56,28 @@ line-height: 1.17;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+    font-style: normal;
+}
 
-.address-list {}
+.address-list {
+    color: #434455;
+}
 
 .address-list-itme {}
 
 .address-list-itme-text {}
 
+.address-list-itme-text:hover,
+.address-list-itme-text:focus {
+    color: #404BBF;
+}
 
 /* ----- hero banner -----*/
 .hero-banner{
     background-image: url(../images/Dark-bg\ \(1\).jpg);
     width: 1440px;
-     height: 312px;
+    height: 312px;
    
     background-size: contain;
     background-color: #2e2f42;
@@ -88,13 +96,13 @@ line-height: 1.17;
 .hero-banner-botton {
    
  font-weight: 500;
-    font-size: 16px;
-      
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    line-height: 1.5;
+ font-size: 16px;
+ color: #ffffff;
+ letter-spacing: 0.04em;
+ background-color: #4D5AE5;
+ cursor: pointer;
+ font-family: "Roboto", sans-serif;
+ line-height: 1.5;
 }
 
 .hero-banner-botton:hover {
@@ -109,12 +117,18 @@ line-height: 1.17;
 .solutions {
    
 }
-
+.solutions-titel{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+}
 .solutions-list {}
 
 .solutions-list-item {}
 
-.solutions-title {
+.solutions-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -133,6 +147,7 @@ line-height: 1.17;
 
 /* ----- our-team-----*/
 .team { 
+    background-color: #f4f4fd;
 
 }
 
