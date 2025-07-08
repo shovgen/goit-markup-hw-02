@@ -126,9 +126,11 @@ line-height: 1.17;
 }
 .solutions-list {}
 
-.solutions-list-item {}
+.solutions-list-item {
 
-.solutions-list-title {
+}
+
+.solutions-list-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -152,8 +154,8 @@ line-height: 1.17;
 
 }
 
-.team-heading {
-    color: 2e2f42;
+.team-logo {
+    color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
     text-align: center;
@@ -167,7 +169,10 @@ line-height: 1.17;
 .team-list {}
 
 .team-list-item {
-    background-color: #FFFFFF;
+ background-color: #FFFFFF;
+}
+.team-logo{
+    color: #2e2f42;
 }
 
 .team-list-item-title {font-weight: 500;
@@ -175,7 +180,8 @@ line-height: 1.17;
     line-height: 120%;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2E2F42;}
+    color: #2E2F42;
+}
 
 .team-list-item-text {font-weight: 400;
     font-size: 16px;
@@ -231,13 +237,35 @@ line-height: 1.17;
     line-height: 312px;
     background-size: contain;
     background-color: #2e2f42;
+
     
 }
+.footer-logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.17;
+}
+
+.footer-logo-studio{
+    color: #f2f2fd;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    line-height: 1.5;
 }
 
 
