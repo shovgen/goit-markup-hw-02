@@ -56,8 +56,8 @@ line-height: 1.17;
 }
 
 
-.header-navigation-list-itme-nav:hover,
-.header-navigation-list-itme-nav:focus{
+.header-navigation-list-itme:hover,
+.header-navigation-list-itme:focus{
     color: #404bbf;
 }
 
