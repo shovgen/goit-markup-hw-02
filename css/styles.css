@@ -54,13 +54,8 @@ line-height: 1.17;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-navigation-list-itme-nav{
-    color: #2e2f42;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
+
 .header-navigation-list-itme-nav:hover,
 .header-navigation-list-itme-nav:focus{
     color: #404bbf;
@@ -85,7 +80,9 @@ line-height: 1.17;
     color: #434455;
 }
 
-.address-list-itme-text {}
+.address-list-itme-text {
+    color: #434455;
+}
 
 .address-list-itme-text:hover,
 .address-list-itme-text:focus {
