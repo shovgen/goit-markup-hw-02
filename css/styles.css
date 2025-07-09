@@ -45,7 +45,7 @@ line-height: 1.17;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2E2F42;}
+    color: #2e2f42;}
 
 .header-navigation-list-itme {
     font-weight: 500;
@@ -55,7 +55,11 @@ line-height: 1.17;
     color: #2e2f42;
 }
 .header-navigation-list-itme-nav{
-    color: #434455;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .header-navigation-list-itme-nav:hover,
 .header-navigation-list-itme-nav:focus{
@@ -77,7 +81,9 @@ line-height: 1.17;
     color: #434455;
 }
 
-.address-list-itme {}
+.address-list-itme {
+    color: #434455;
+}
 
 .address-list-itme-text {}
 
